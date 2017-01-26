@@ -28,3 +28,11 @@ g. You should get a count of the number of lines in that file! Congratulations, 
 your first Spark program!
 h. Hit control-D to exit the spark shell, and close the console window
 i. You’ve got everything set up! Hooray!
+
+If you donot set up your Environment variables
+        cd /usr/local/Cellar/apache-spark/2.1.0/libexec
+        spark-shell 
+The above syntax will get you into scala shell.
+
+** - COPY ALL THE LIB FILES FROM JARS FOLDER INSIDE libexec folder into your project folder to get visibility for Scala Eclipse to add external jars under properties inorder to run a scala program
+
